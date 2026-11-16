@@ -1,0 +1,63 @@
+############# Japanese navigation ##############
+
+# main menu
+[[main]]
+name = "ホーム"
+url = "/"
+weight = 1
+
+[[main]]
+name = "私たちについて"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "要素一覧"
+url = "/elements"
+weight = 3
+
+[[main]]
+weight = 4
+name = "ページ"
+
+[[main]]
+parent = "ページ"
+name = "ブログ"
+url = "/blog"
+
+[[main]]
+parent = "ページ"
+name = "お問い合わせ"
+url = "/contact"
+
+[[main]]
+parent = "ページ"
+name = "著者"
+url = "/authors"
+
+[[main]]
+parent = "ページ"
+name = "カテゴリー"
+url = "/categories"
+
+[[main]]
+parent = "ページ"
+name = "404ページ"
+url = "/404"
+
+
+# footer menu
+[[footer]]
+name = "私たちについて"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "要素一覧"
+url = "/elements"
+weight = 2
+
+[[footer]]
+name = "プライバシーポリシー"
+url = "/privacy-policy"
+weight = 3

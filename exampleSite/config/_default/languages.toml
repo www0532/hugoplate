@@ -1,6 +1,26 @@
+################ Japanese language ##################
+[ja]
+label = "日本語"
+locale = "ja-jp"
+contentDir = "content/japanese"
+weight = 1
+
+[ja.params]
+copyright = "デザイン・開発：[Zeon Studio](https://zeon.studio)"
+
+[ja.params.announcement]
+content = "<span class='text-center block'>♥️ Hugoplateを気に入っていただけましたか？ <a class='underline' href='https://github.com/zeon-studio/hugoplate' target='_blank' rel='noopener'>GitHubで⭐️をお願いします</a></span>"
+
+[ja.params.cookies]
+content = "当サイトではCookieを使用しています。サイトの閲覧を続けることで、Cookieの使用に同意したものとみなします。"
+button = "同意する"
+
+[ja.params.metadata]
+description = "HugoとTailwind CSSのスターターテンプレート"
+
 ################ English language ##################
 [en]
-label = "En"
+label = "English"
 locale = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
